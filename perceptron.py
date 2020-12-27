@@ -2,7 +2,7 @@ import numpy as np
 
 class Perceptron(object):
     
-    def __init__(self, no_of_inputs, threshold=5, learning_rate=100000000):
+    def __init__(self, no_of_inputs, threshold=7, learning_rate=100000000):
         self.threshold = threshold
         self.learning_rate = learning_rate
         self.weights = np.zeros(no_of_inputs + 1)
